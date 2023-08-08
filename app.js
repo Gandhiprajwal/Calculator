@@ -26,7 +26,7 @@ const light = document.querySelector(".sec");
 const toggle = document.querySelector(".light-btn");
 const dark = document.querySelector(".dark-btn");
 toggle.onclick = function () {
-    light.classList.toggle("light-mode");
+    light.classList.add("light-mode");
 };
 dark.onclick = function () {
   light.classList.remove("light-mode");
